@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Basic view of the component
+At the top, there is a search field that allows filtering the color list by name, along with two checkboxes for filtering by category. The filtering options can be hidden by clicking on "toggle advanced." The list contains items consisting of a name, color, hex code, and category.
+![Screenshot](images/image1.png)
+![Screenshot](images/image2.png)
+![Screenshot](images/image3.png)
+
+## Simple responsive implementation
+The component has been adjusted for smaller screens using Bootstrap and media queries in SCSS
+![Screenshot](images/image4.png)
