@@ -28,10 +28,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Basic view of the component
 At the top, there is a search field that allows filtering the color list by name, along with two checkboxes for filtering by category. The filtering options can be hidden by clicking on "toggle advanced." The list contains items consisting of a name, color, hex code, and category.
-![Screenshot](images/image1.png)
-![Screenshot](images/image2.png)
-![Screenshot](images/image3.png)
+![Screenshot](images/picture1.png)
+![Screenshot](images/picture2.png)
+![Screenshot](images/picture3.png)
 
 ## Simple responsive implementation
 The component has been adjusted for smaller screens using Bootstrap and media queries in SCSS
-![Screenshot](images/image4.png)
+![Screenshot](images/picture4.png)
