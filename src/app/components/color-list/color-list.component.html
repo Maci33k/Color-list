@@ -1,0 +1,40 @@
+<!-- <div class="container-fluid">
+    @if(checked) {
+    <div class="searchBar">
+        <input type="text" class="form-control" [value]="searchInput()" (input)="onInputChange($event)" placeholder="search color">
+        <input class="form-check-input" type="checkbox" value="" id="exampleCheck1" [checked]="isMainChecked()" (change)="onCheckboxChange('main', $event)">
+        <label class="form-check-label" for="exampleCheck1">
+             main
+        </label>
+        <input class="form-check-input" type="checkbox" value="" id="exampleCheck1" [checked]="isStateChecked" (change)="onCheckboxChange('state', $event)">
+        <label class="form-check-label" for="exampleCheck1">
+            state
+        </label>
+    </div>
+    <div class="line" style="width: 100%; border-bottom: 2px solid black; margin-top: 1em;">
+
+    </div>
+}
+    <div class="list">
+        <div class="toggle">
+            <mat-slide-toggle [(ngModel)]="checked" [labelPosition]="'before'" (change)="resetForm()">
+                Advanced filtering
+              </mat-slide-toggle>
+              
+        </div>
+        @for(color of filteredColors(); track color) {
+        <div class="element">
+            <div class="row">
+                <div class="col-3" title="color name">{{color.name}}</div>
+                <div class="col-3">
+                    <div class="square" [style.background-color]="color.hex" title="color hex">
+                        {{color.hex}}
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-3" title="category">{{color.category}}</div>
+            </div>
+        </div>
+    }
+    </div>
+</div> -->
